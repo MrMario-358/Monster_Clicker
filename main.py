@@ -175,9 +175,9 @@ class ClickerApp(App):
     LEVEL = 0
     
     FISHES = {
-        "fish1": {"source": "assets\images\limoncitosketching-monster-3764868_640.png", "hp": 3},
-        "fish2": {"source": "assets\images\openclipart-vectors-dress-up-head-2026106_640.png", "hp": 5},
-        "fish3": {"source": "assets\images\pixelcreatures-monster-602548_640.png", "hp": 10}
+        "fish1": {"source": "assets\images\limoncitosketching-monster-3764868_640.png", "hp": 5},
+        "fish2": {"source": "assets\images\openclipart-vectors-dress-up-head-2026106_640.png", "hp": 10},
+        "fish3": {"source": "assets\images\pixelcreatures-monster-602548_640.png", "hp": 15}
     }
     LEVELS = [["fish1", "fish2","fish3"]]
     def build(self):
